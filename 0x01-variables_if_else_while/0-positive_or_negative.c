@@ -4,7 +4,7 @@
 /**
  * main - Determines if a numeber is positive or negative or zero
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
