@@ -1,16 +1,18 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * add - adds two integers
+ * @n1: integer 1
+ * @n2: integer 2
+ * Description: give two integers, returns sum
+ * Return: sum
  */
-int main(void)
-{
-	int n;
 
-	n = add(89, 9);
-	printf("%d\n", n);
-	return (0);
+int add(int n1, int n2)
+{
+	int sum;
+
+	sum = n1 + n2;
+
+	return (sum);
 }
